@@ -1,0 +1,35 @@
+.product{
+    width:60vh;
+    height:auto;
+    text-align:center;
+}
+.products img{
+    width:50vh;
+    margin:30px 0; 
+}
+.product h2{
+    color:rgb(24, 24, 63);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.product p{
+    color:rgb(24, 24, 63);
+    font-size:30px;
+    font-weight:bold;
+}
+.product button{
+    width:40vh;
+    margin:10px;
+    height:10vh;
+    background:rgb(24, 24, 63);
+    border:0;
+    outline:none;
+    color:white;
+    font-size:15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.product button:hover{
+    background:white;
+    border:3px solid rgb(24, 24, 63);
+    color:rgb(24, 24, 63);
+    cursor:pointer;
+}

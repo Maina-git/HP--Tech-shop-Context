@@ -1,0 +1,77 @@
+.cartItem{
+    width:60%;
+    height:50vh;
+    display:flex;
+    box-shadow:1px 1px 20px;
+    border-radius:10px;
+    margin:30px 0;
+}
+.cartItem img{
+    width:50vh;
+    margin:20px;
+}
+.cartItem .info{
+    margin:20px 50px;
+}
+.cartItem .info h2{
+    font-weight:bold;
+    padding:10px;
+    margin:10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(19, 19, 37);
+}
+.cartItem .info p{
+    color:rgb(19, 19, 37);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px;
+    padding:10px;
+    margin:10px;
+}
+.cartItem .info button{
+    width:30vh;
+    height:10vh;
+    margin:10px;
+    padding:10px;
+    border:0;
+    outline:none;
+    background:rgb(19, 19, 37);
+    color:white;
+    font-size:10px;
+    cursor:pointer;
+}
+.cartItem .info button:hover{
+    background:white;
+    border:3px solid rgb(19, 19, 37);
+    color:rgb(19, 19, 37);
+}
+
+@media screen and (max-width:480px){
+
+.cartItem{
+    width:auto;
+    height:auto;
+    display:grid;
+    text-align:center;
+}
+.cartItem img{
+    width:40vh;
+}
+
+.cartItem .info{
+    margin:5px;
+}
+.cartItem .info h2{
+    font-size:20px;
+}
+.cartItem .info p{
+    text-align:center;
+    font-size:20px;
+}
+.cartItem .info button{
+    width:20vh;
+    height:5vh;
+   padding:10px 0;
+}
+
+}
+

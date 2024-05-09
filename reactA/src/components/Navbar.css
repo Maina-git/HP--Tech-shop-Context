@@ -1,0 +1,39 @@
+.nav{
+    flex:100%;
+    background:rgb(27, 27, 88);
+    padding:20px;
+    display:flex;
+    height:auto;
+    justify-content:space-between;
+}
+.nav .logo{
+    color:white;
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+    padding:10px;
+}
+
+.nav .links{
+    margin:10px;
+}
+.nav .links a{
+    color:white;
+    margin:0 20px;
+    font-weight:bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:none;
+    padding:5px 10px;
+}
+.nav .links a:hover{
+    background:rgba(255,255,255, 0.5);
+}
+@media screen and (max-width:480px){
+.nav{
+    justify-content:center;
+}
+.logo{
+    display:none;
+}
+}
+
